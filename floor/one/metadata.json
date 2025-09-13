@@ -1,0 +1,325 @@
+{
+  "version": "1.4.2",
+  "timestamp": "2024-11-04T10:02:28Z",
+  "system": {
+    "location": {
+      "site": "IN-BLR-ANANTA",
+      "section": "IN-BLR-ANANTA-5"
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "uuid://9f8931ac-5c4d-442b-a733-9b1a39f6f162",
+        "site": "IN-BLR-ANANTA",
+        "name": "CGW-400201"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "energy_accumulator_98": {
+        "ref": "AV:18.present_value",
+        "units": "kilowatt_hours"
+      },
+      "power_sensor_98": {
+        "ref": "AV:32.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_power_sensor_98": {
+        "ref": "AV:397.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_power_sensor_98": {
+        "ref": "AV:398.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_power_sensor_98": {
+        "ref": "AV:399.present_value",
+        "units": "kilowatts"
+      },
+      "apparent_power_sensor_98": {
+        "ref": "AV:33.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_apparent_power_sensor_98": {
+        "ref": "AV:400.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_apparent_power_sensor_98": {
+        "ref": "AV:401.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_apparent_power_sensor_98": {
+        "ref": "AV:402.present_value",
+        "units": "kilowatts"
+      },
+      "powerfactor_sensor_98": {
+        "ref": "AV:48.present_value",
+        "units": "no_units"
+      },
+      "phase1_line_current_sensor_98": {
+        "ref": "AV:172.present_value",
+        "units": "amperes"
+      },
+      "phase2_line_current_sensor_98": {
+        "ref": "AV:173.present_value",
+        "units": "amperes"
+      },
+      "phase3_line_current_sensor_98": {
+        "ref": "AV:174.present_value",
+        "units": "amperes"
+      },
+      "line_frequency_sensor_98": {
+        "ref": "AV:63.present_value",
+        "units": "hertz"
+      },
+      "reactive_power_sensor_98": {
+        "ref": "AV:78.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_reactive_power_sensor_98": {
+        "ref": "AV:403.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_reactive_power_sensor_98": {
+        "ref": "AV:404.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_reactive_power_sensor_98": {
+        "ref": "AV:405.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_neutral_line_voltage_sensor_98": {
+        "ref": "AV:406.present_value",
+        "units": "volts"
+      },
+      "phase2_neutral_line_voltage_sensor_98": {
+        "ref": "AV:407.present_value",
+        "units": "volts"
+      },
+      "phase3_neutral_line_voltage_sensor_98": {
+        "ref": "AV:408.present_value",
+        "units": "volts"
+      },
+      "phase1_phase2_line_voltage_sensor_98": {
+        "ref": "AV:91.present_value",
+        "units": "volts"
+      },
+      "phase2_phase3_line_voltage_sensor_98": {
+        "ref": "AV:92.present_value",
+        "units": "volts"
+      },
+      "phase1_phase3_line_voltage_sensor_98": {
+        "ref": "AV:93.present_value",
+        "units": "volts"
+      },
+      "energy_accumulator_99": {
+        "ref": "AV:97.present_value",
+        "units": "kilowatt_hours"
+      },
+      "power_sensor_99": {
+        "ref": "AV:98.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_power_sensor_99": {
+        "ref": "AV:409.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_power_sensor_99": {
+        "ref": "AV:410.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_power_sensor_99": {
+        "ref": "AV:411.present_value",
+        "units": "kilowatts"
+      },
+      "apparent_power_sensor_99": {
+        "ref": "AV:99.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_apparent_power_sensor_99": {
+        "ref": "AV:412.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_apparent_power_sensor_99": {
+        "ref": "AV:413.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_apparent_power_sensor_99": {
+        "ref": "AV:414.present_value",
+        "units": "kilowatts"
+      },
+      "powerfactor_sensor_99": {
+        "ref": "AV:101.present_value",
+        "units": "no_units"
+      },
+      "phase1_line_current_sensor_99": {
+        "ref": "AV:178.present_value",
+        "units": "amperes"
+      },
+      "phase2_line_current_sensor_99": {
+        "ref": "AV:179.present_value",
+        "units": "amperes"
+      },
+      "phase3_line_current_sensor_99": {
+        "ref": "AV:180.present_value",
+        "units": "amperes"
+      },
+      "line_frequency_sensor_99": {
+        "ref": "AV:103.present_value",
+        "units": "hertz"
+      },
+      "reactive_power_sensor_99": {
+        "ref": "AV:105.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_reactive_power_sensor_99": {
+        "ref": "AV:415.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_reactive_power_sensor_99": {
+        "ref": "AV:416.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_reactive_power_sensor_99": {
+        "ref": "AV:417.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_neutral_line_voltage_sensor_99": {
+        "ref": "AV:418.present_value",
+        "units": "volts"
+      },
+      "phase2_neutral_line_voltage_sensor_99": {
+        "ref": "AV:419.present_value",
+        "units": "volts"
+      },
+      "phase3_neutral_line_voltage_sensor_99": {
+        "ref": "AV:420.present_value",
+        "units": "volts"
+      },
+      "phase1_phase2_line_voltage_sensor_99": {
+        "ref": "AV:106.present_value",
+        "units": "volts"
+      },
+      "phase2_phase3_line_voltage_sensor_99": {
+        "ref": "AV:107.present_value",
+        "units": "volts"
+      },
+      "phase1_phase3_line_voltage_sensor_99": {
+        "ref": "AV:108.present_value",
+        "units": "volts"
+      },
+      "energy_accumulator_100": {
+        "ref": "AV:112.present_value",
+        "units": "kilowatt_hours"
+      },
+      "power_sensor_100": {
+        "ref": "AV:113.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_power_sensor_100": {
+        "ref": "AV:421.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_power_sensor_100": {
+        "ref": "AV:422.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_power_sensor_100": {
+        "ref": "AV:423.present_value",
+        "units": "kilowatts"
+      },
+      "apparent_power_sensor_100": {
+        "ref": "AV:114.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_apparent_power_sensor_100": {
+        "ref": "AV:424.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_apparent_power_sensor_100": {
+        "ref": "AV:425.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_apparent_power_sensor_100": {
+        "ref": "AV:426.present_value",
+        "units": "kilowatts"
+      },
+      "powerfactor_sensor_100": {
+        "ref": "AV:116.present_value",
+        "units": "no_units"
+      },
+      "phase1_line_current_sensor_100": {
+        "ref": "AV:184.present_value",
+        "units": "amperes"
+      },
+      "phase2_line_current_sensor_100": {
+        "ref": "AV:185.present_value",
+        "units": "amperes"
+      },
+      "phase3_line_current_sensor_100": {
+        "ref": "AV:186.present_value",
+        "units": "amperes"
+      },
+      "line_frequency_sensor_100": {
+        "ref": "AV:118.present_value",
+        "units": "hertz"
+      },
+      "reactive_power_sensor_100": {
+        "ref": "AV:120.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_reactive_power_sensor_100": {
+        "ref": "AV:427.present_value",
+        "units": "kilowatts"
+      },
+      "phase2_reactive_power_sensor_100": {
+        "ref": "AV:428.present_value",
+        "units": "kilowatts"
+      },
+      "phase3_reactive_power_sensor_100": {
+        "ref": "AV:429.present_value",
+        "units": "kilowatts"
+      },
+      "phase1_neutral_line_voltage_sensor_100": {
+        "ref": "AV:430.present_value",
+        "units": "volts"
+      },
+      "phase2_neutral_line_voltage_sensor_100": {
+        "ref": "AV:431.present_value",
+        "units": "volts"
+      },
+      "phase3_neutral_line_voltage_sensor_100": {
+        "ref": "AV:432.present_value",
+        "units": "volts"
+      },
+      "phase1_phase2_line_voltage_sensor_100": {
+        "ref": "AV:121.present_value",
+        "units": "volts"
+      },
+      "phase2_phase3_line_voltage_sensor_100": {
+        "ref": "AV:122.present_value",
+        "units": "volts"
+      },
+      "phase1_phase3_line_voltage_sensor_100": {
+        "ref": "AV:123.present_value",
+        "units": "volts"
+      }
+    }
+  },
+  "cloud": {
+    "connection_type": "PROXIED",
+    "config": {
+      "static_file": "config.json"
+    }
+  },
+  "gateway": {
+    "gateway_id": "HLI-40"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "addr": "11077"
+      }
+    }
+  }
+}

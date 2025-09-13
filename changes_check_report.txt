@@ -1,0 +1,11 @@
+
+📄 Checking file: E:\temp_projects\json_values_checker\devices\AHU-111\metadata.json
+🔍 Checking 'x' (Expected: '10'):
+   ✅ Passed: 0
+   ❌ Failed: 0
+🔍 Checking 'y' (Expected: '11'):
+   ✅ Passed: 6
+   ❌ Failed: 0
+🔍 Checking 'z' (Expected: '12'):
+   ✅ Passed: 4
+   ❌ Failed: 0

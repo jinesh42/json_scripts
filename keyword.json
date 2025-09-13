@@ -1,0 +1,27 @@
+{
+    "energy_accumulator": "kilowatt_hours",
+    "power_sensor": "kilowatts",
+    "phase1_power_sensor": "kilowatts",
+    "phase2_power_sensor": "kilowatts",
+    "phase3_power_sensor": "kilowatts",
+    "apparent_power_sensor": "kilovolt_amperes_apparent",
+    "phase1_apparent_power_sensor": "kilovolt_amperes_apparent",
+    "phase2_apparent_power_sensor": "kilovolt_amperes_apparent",
+    "phase3_apparent_power_sensor": "kilovolt_amperes_apparent",
+    "powerfactor_sensor": "no_units",
+    "phase1_line_current_sensor": "amperes",
+    "phase2_line_current_sensor": "amperes",
+    "phase3_line_current_sensor": "amperes",
+    "line_frequency_sensor": "hertz",
+    "reactive_power_sensor": "kilovolt_amperes_reactive",
+    "phase1_reactive_power_sensor": "kilovolt_amperes_reactive",
+    "phase2_reactive_power_sensor": "kilovolt_amperes_reactive",
+    "phase3_reactive_power_sensor": "kilovolt_amperes_reactive",
+    "phase1_neutral_line_voltage_sensor": "volts",
+    "phase2_neutral_line_voltage_sensor": "volts",
+    "phase3_neutral_line_voltage_sensor": "volts",
+    "phase1_phase2_line_voltage_sensor": "volts",
+    "phase2_phase3_line_voltage_sensor": "volts",
+    "phase1_phase3_line_voltage_sensor": "volts"
+
+}

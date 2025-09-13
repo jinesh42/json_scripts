@@ -1,0 +1,61 @@
+{
+  "version": "1",
+  "timestamp": "2020-12-08T09:03:43Z",
+  "system": {
+    "physical_tag": {
+      "asset": {
+        "guid": "uuid://a0e5c80f-73d2-428f-939c-2283b6c945e9",
+        "site": "ABC",
+        "name": "AHU-111"
+      }
+    },
+    "location": {
+      "position": {
+        "x": "1",
+        "y": "13",
+        "z": "12"
+      },
+      "site": "IN-BLR-ANANTA"
+    }
+  },
+  "pointset": {
+    "points": {
+      "supply_air_temperature_sensor": {
+        "units": "Degrees-Celsius"
+      },
+      "zone_air_temperature_sensor": {
+        "units": "Degrees-Celsius"
+      },
+      "fire_alarm_status": {
+        "units": "No-units"
+      },
+      "cooling_valve_percentage_command": {
+        "units": "Percent"
+      },
+      "entering_cooling_coil_temperature_sensor": {
+        "units": "Degrees-Celsius"
+      },
+      "leaving_cooling_coil_temperature_sensor": {
+        "units": "Degrees-Celsius"
+      },
+      "cooling_coil_differential_temperature_sensor": {
+        "units": "Degrees-Celsius"
+      },
+      "zone_air_pid_integral_temperature_setpoint": {
+        "units": "Minutes"
+      },
+      "zone_air_pid_derivative_temperature_setpoint": {
+        "units": "Minutes"
+      },
+      "zone_air_temperature_setpoint": {
+        "units": "Degrees-Celsius"
+      },
+      "zone_air_pid_derivative_temperature_setpoints": {
+        "units": "Mi"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "R257"
+  }
+}

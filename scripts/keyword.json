@@ -1,0 +1,23 @@
+{
+    "temperature": "degrees_celsius",
+    "percentage": "percent",
+    "energy_accumulator": "kilowatt_hours",
+    "power_sensor":"kilowatts",
+    "run_time_accumulator":"hours",
+    "rotationalvelocity_sensor":"rotationalvelocity_sensor",
+    "voltage":"volts",
+    "current":"amperes",
+    "status":"",
+    "relative_humidity":"percent_relative_humidity",
+    "static_pressure":"pascals",
+    "alarm":"",
+    "flowrate":"cubic_feet_per_minute",
+    "co2_concentration":"parts_per_million",
+    "apparent_power_sensor":"kilovolt_amperes_apparent",
+    "phase1_power_sensor":"kilowatts",
+    "powerfactor_sensor":"no_units",
+    "frequency":"hertz",
+    "reactive_power_sensor":"kilovolt_amperes_reactive"
+
+
+}

@@ -1,0 +1,453 @@
+{
+  "version": "1.4.2",
+  "timestamp": "2024-11-04T10:02:28Z",
+  "system": {
+    "location": {
+      "site": "IN-BLR-ANANTA",
+      "section": "IN-BLR-ANANTA-6"
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "uuid://eb02f0e3-56dc-4532-b61a-68880039c181",
+        "site": "IN-BLR-ANANTA",
+        "name": "CGW-510202"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "supply_air_damper_percentage_command_1066": {
+        "ref": "AV:909.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1066": {
+        "ref": "AV:401.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1066": {
+        "ref": "AV:912.present_value",
+        "units": "degrees_celsius"
+      },
+      "run_status": {
+        "ref": "AV:914.present_value",
+        "units": ""
+      },
+      "supply_air_ventilation_flowrate_requirement_1066": {
+        "ref": "AV:915.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1066": {
+        "ref": "AV:918.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1066": {
+        "ref": "AV:923.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1066": {
+        "ref": "BV:228.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1067": {
+        "ref": "AV:941.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1067": {
+        "ref": "AV:407.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1067": {
+        "ref": "AV:944.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1067": {
+        "ref": "AV:946.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1067": {
+        "ref": "AV:947.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1067": {
+        "ref": "AV:950.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1067": {
+        "ref": "AV:955.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1067": {
+        "ref": "BV:236.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1068": {
+        "ref": "AV:973.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1068": {
+        "ref": "AV:426.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1068": {
+        "ref": "AV:976.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1068": {
+        "ref": "AV:978.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1068": {
+        "ref": "AV:979.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1068": {
+        "ref": "AV:982.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1068": {
+        "ref": "AV:987.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1068": {
+        "ref": "BV:244.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1069": {
+        "ref": "AV:1005.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1069": {
+        "ref": "AV:427.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1069": {
+        "ref": "AV:1008.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1069": {
+        "ref": "AV:1010.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1069": {
+        "ref": "AV:1011.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1069": {
+        "ref": "AV:1014.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1069": {
+        "ref": "AV:1019.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1069": {
+        "ref": "BV:252.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1070": {
+        "ref": "AV:1037.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1070": {
+        "ref": "AV:433.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1070": {
+        "ref": "AV:1040.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1070": {
+        "ref": "AV:1042.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1070": {
+        "ref": "AV:1043.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1070": {
+        "ref": "AV:1046.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1070": {
+        "ref": "AV:1051.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1070": {
+        "ref": "BV:260.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1071": {
+        "ref": "AV:13.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1071": {
+        "ref": "AV:439.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1071": {
+        "ref": "AV:16.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1071": {
+        "ref": "AV:18.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1071": {
+        "ref": "AV:19.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1071": {
+        "ref": "AV:22.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1071": {
+        "ref": "AV:27.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1071": {
+        "ref": "BV:4.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1072": {
+        "ref": "AV:45.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1072": {
+        "ref": "AV:458.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1072": {
+        "ref": "AV:48.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1072": {
+        "ref": "AV:50.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1072": {
+        "ref": "AV:51.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1072": {
+        "ref": "AV:54.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1072": {
+        "ref": "AV:59.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1072": {
+        "ref": "BV:12.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1073": {
+        "ref": "AV:77.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1073": {
+        "ref": "AV:459.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1073": {
+        "ref": "AV:80.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1073": {
+        "ref": "AV:82.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1073": {
+        "ref": "AV:83.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1073": {
+        "ref": "AV:86.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1073": {
+        "ref": "AV:91.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1073": {
+        "ref": "BV:20.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1075": {
+        "ref": "AV:141.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1075": {
+        "ref": "AV:465.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1075": {
+        "ref": "AV:144.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1075": {
+        "ref": "AV:146.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1075": {
+        "ref": "AV:147.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1075": {
+        "ref": "AV:150.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1075": {
+        "ref": "AV:155.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1075": {
+        "ref": "BV:36.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1076": {
+        "ref": "AV:173.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1076": {
+        "ref": "AV:471.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1076": {
+        "ref": "AV:176.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1076": {
+        "ref": "AV:178.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1076": {
+        "ref": "AV:179.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1076": {
+        "ref": "AV:182.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1076": {
+        "ref": "AV:187.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1076": {
+        "ref": "BV:44.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1077": {
+        "ref": "AV:205.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1077": {
+        "ref": "AV:490.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1077": {
+        "ref": "AV:208.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1077": {
+        "ref": "AV:210.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1077": {
+        "ref": "AV:211.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1077": {
+        "ref": "AV:214.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1077": {
+        "ref": "AV:219.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1077": {
+        "ref": "BV:52.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1078": {
+        "ref": "AV:237.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1078": {
+        "ref": "AV:491.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1078": {
+        "ref": "AV:240.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1078": {
+        "ref": "AV:242.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1078": {
+        "ref": "AV:243.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1078": {
+        "ref": "AV:246.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1078": {
+        "ref": "AV:251.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1078": {
+        "ref": "BV:60.present_value",
+        "units": ""
+      },
+      "supply_air_damper_percentage_command_1079": {
+        "ref": "AV:269.present_value",
+        "units": "percent"
+      },
+      "supply_air_flowrate_setpoint_1079": {
+        "ref": "AV:497.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_temperature_sensor_1079": {
+        "ref": "AV:272.present_value",
+        "units": "degrees_celsius"
+      },
+      "supply_air_cooling_flowrate_capacity_1079": {
+        "ref": "AV:274.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_ventilation_flowrate_requirement_1079": {
+        "ref": "AV:275.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "supply_air_flowrate_sensor_1079": {
+        "ref": "AV:278.present_value",
+        "units": "cubic_feet_per_minute"
+      },
+      "zone_air_cooling_temperature_setpoint_1079": {
+        "ref": "AV:283.present_value",
+        "units": "degrees_celsius"
+      },
+      "zone_occupancy_status_1079": {
+        "ref": "BV:68.present_value",
+        "units": ""
+      }
+    }
+  },
+  "cloud": {
+    "connection_type": "PROXIED",
+    "config": {
+      "static_file": "config.json"
+    }
+  },
+  "gateway": {
+    "gateway_id": "HLI-51"
+  },
+  "localnet": {
+    "families": {
+      "bacnet": {
+        "addr": "11095"
+      }
+    }
+  }
+}
