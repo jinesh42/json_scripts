@@ -65,62 +65,38 @@ def check_units(json_data, expected_units, auto_fix=False):
 
     return stats, modified
 
-def search_and_check_files(root_dir: Path, expected_units, auto_fix=False, folder_pattern="EM-*"):
-    """
-    Search for metadata.json files in folders matching the specified pattern.
-    
-    Args:
-        root_dir (Path): Root directory to start search
-        expected_units (dict): Dictionary of expected units
-        auto_fix (bool): Whether to automatically fix unit mismatches
-        folder_pattern (str): Pattern to match folder names (default: "EM-*")
-    """
-    # Find all matching folders first
-    matching_folders = [f for f in root_dir.glob(folder_pattern) if f.is_dir()]
-    
-    if not matching_folders:
-        print(f"No folders matching pattern '{folder_pattern}' found in {root_dir}")
+def search_and_check_files(root_dir: Path, expected_units, auto_fix=False):
+    matched_files = list(root_dir.rglob(target_filename))
+    if not matched_files:
+        print("No matching files found.")
         return
 
     report_lines = []
-    report_lines.append(f"🔍 Searching in folders matching '{folder_pattern}'")
 
-    for folder in matching_folders:
-        # Look for metadata.json in each matching folder
-        metadata_files = list(folder.glob(target_filename))
-        
-        if not metadata_files:
-            report_lines.append(f"\n⚠️ No {target_filename} found in {folder}")
-            continue
+    for file_path in matched_files:
+        report_lines.append(f"\n📄 Checking file: {file_path}")
+        if file_path.is_file():
+            content = file_path.read_text(encoding='utf-8')
+            json_data = json.loads(content)
 
-        for file_path in metadata_files:
-            report_lines.append(f"\n📄 Checking file: {file_path}")
-            if file_path.is_file():
-                try:
-                    content = file_path.read_text(encoding='utf-8')
-                    json_data = json.loads(content)
+            file_stats, modified = check_units(json_data, expected_units, auto_fix)
 
-                    file_stats, modified = check_units(json_data, expected_units, auto_fix)
+            for key, result in file_stats.items():
+                report_lines.append(f"🔍 Checking '{key}' (Expected: '{result['expected_unit']}'):")
+                report_lines.append(f"   ✅ Passed: {result['pass']}")
+                report_lines.append(f"   ❌ Failed: {result['fail']}")
 
-                    for key, result in file_stats.items():
-                        report_lines.append(f"🔍 Checking '{key}' (Expected: '{result['expected_unit']}'):")
-                        report_lines.append(f"   ✅ Passed: {result['pass']}")
-                        report_lines.append(f"   ❌ Failed: {result['fail']}")
-
-                    if auto_fix and modified:
-                        file_path.write_text(json.dumps(json_data, indent=2), encoding='utf-8')
-                        report_lines.append("   ✏️ Units auto-corrected and file updated.")
-                
-                except Exception as e:
-                    report_lines.append(f"   ❌ Error processing file: {str(e)}")
+            # Save changes if modified
+            if auto_fix and modified:
+                file_path.write_text(json.dumps(json_data, indent=2), encoding='utf-8')
+                report_lines.append("   ✏️ Units auto-corrected and file updated.")
 
     # Write report to file
     output_file.write_text('\n'.join(report_lines), encoding='utf-8')
     print(f"\n📝 Report saved to: {output_file}")
 
-# Update the main section to use the pattern
 if __name__ == "__main__":
     expected_units = load_expected_units(unit_rules_file)
     if expected_units:
-        # Search in folders starting with "EM-"
-        search_and_check_files(search_root, expected_units, auto_fix=True, folder_pattern="EM-*")
+        search_and_check_files(search_root, expected_units, auto_fix=True)
+
