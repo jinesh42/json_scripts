@@ -38,7 +38,7 @@ def check_units(json_data, expected_units, auto_fix=False):
     for keyword, expected_unit in expected_units.items():
 
         
-        matching_paths = [p for p in paths if re.search(keyword, p, re.IGNORECASE)]
+        matching_paths = [p for p in paths if re.search(rf"\.{re.escape(keyword)}$", p, re.IGNORECASE)]
         pass_count = 0
         fail_count = 0
 
@@ -65,7 +65,7 @@ def check_units(json_data, expected_units, auto_fix=False):
 
     return stats, modified
 
-def search_and_check_files(root_dir: Path, expected_units, auto_fix=False, folder_pattern="EM-*"):
+def search_and_check_files(root_dir: Path, expected_units, auto_fix=False, folder_pattern="*"):
     """
     Search for metadata.json files in folders matching the specified pattern.
     
@@ -123,4 +123,4 @@ if __name__ == "__main__":
     expected_units = load_expected_units(unit_rules_file)
     if expected_units:
         # Search in folders starting with "EM-"
-        search_and_check_files(search_root, expected_units, auto_fix=True, folder_pattern="EM-*")
+        search_and_check_files(search_root, expected_units, auto_fix=True, folder_pattern="*")

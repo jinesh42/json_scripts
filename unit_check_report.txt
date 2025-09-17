@@ -1,79 +1,78 @@
+🔍 Searching in folders matching '*'
 
 📄 Checking file: E:\temp_projects\json_values_checker\floor\one\metadata.json
 🔍 Checking 'energy_accumulator' (Expected: 'kilowatt_hours'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'power_sensor' (Expected: 'kilowatts'):
-   ✅ Passed: 11
-   ❌ Failed: 25
+   ✅ Passed: 0
+   ❌ Failed: 0
 🔍 Checking 'phase1_power_sensor' (Expected: 'kilowatts'):
-   ✅ Passed: 2
-   ❌ Failed: 1
+   ✅ Passed: 0
+   ❌ Failed: 0
 🔍 Checking 'phase2_power_sensor' (Expected: 'kilowatts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase3_power_sensor' (Expected: 'kilowatts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'apparent_power_sensor' (Expected: 'kilovolt_amperes_apparent'):
-   ✅ Passed: 12
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_apparent_power_sensor' (Expected: 'kilovolt_amperes_apparent'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase2_apparent_power_sensor' (Expected: 'kilovolt_amperes_apparent'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase3_apparent_power_sensor' (Expected: 'kilovolt_amperes_apparent'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'powerfactor_sensor' (Expected: 'no_units'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_line_current_sensor' (Expected: 'amperes'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase2_line_current_sensor' (Expected: 'amperes'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase3_line_current_sensor' (Expected: 'amperes'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'line_frequency_sensor' (Expected: 'hertz'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'reactive_power_sensor' (Expected: 'kilovolt_amperes_reactive'):
-   ✅ Passed: 12
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_reactive_power_sensor' (Expected: 'kilovolt_amperes_reactive'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase2_reactive_power_sensor' (Expected: 'kilovolt_amperes_reactive'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase3_reactive_power_sensor' (Expected: 'kilovolt_amperes_reactive'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_neutral_line_voltage_sensor' (Expected: 'volts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase2_neutral_line_voltage_sensor' (Expected: 'volts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase3_neutral_line_voltage_sensor' (Expected: 'volts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_phase2_line_voltage_sensor' (Expected: 'volts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase2_phase3_line_voltage_sensor' (Expected: 'volts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_phase3_line_voltage_sensor' (Expected: 'volts'):
-   ✅ Passed: 3
+   ✅ Passed: 0
    ❌ Failed: 0
-🔧 Applying 26 corrections.
-💾 File updated with corrected units.
 
 📄 Checking file: E:\temp_projects\json_values_checker\floor\two\metadata.json
 🔍 Checking 'energy_accumulator' (Expected: 'kilowatt_hours'):
