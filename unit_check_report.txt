@@ -7,6 +7,9 @@
 🔍 Checking 'power_sensor' (Expected: 'kilowatts'):
    ✅ Passed: 0
    ❌ Failed: 0
+🔍 Checking 'power_sensor_98' (Expected: 'kilowatts'):
+   ✅ Passed: 0
+   ❌ Failed: 1
 🔍 Checking 'phase1_power_sensor' (Expected: 'kilowatts'):
    ✅ Passed: 0
    ❌ Failed: 0
@@ -73,12 +76,16 @@
 🔍 Checking 'phase1_phase3_line_voltage_sensor' (Expected: 'volts'):
    ✅ Passed: 0
    ❌ Failed: 0
+   ✏️ Units auto-corrected and file updated.
 
 📄 Checking file: E:\temp_projects\json_values_checker\floor\two\metadata.json
 🔍 Checking 'energy_accumulator' (Expected: 'kilowatt_hours'):
    ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'power_sensor' (Expected: 'kilowatts'):
+   ✅ Passed: 0
+   ❌ Failed: 0
+🔍 Checking 'power_sensor_98' (Expected: 'kilowatts'):
    ✅ Passed: 0
    ❌ Failed: 0
 🔍 Checking 'phase1_power_sensor' (Expected: 'kilowatts'):

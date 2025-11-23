@@ -60,6 +60,7 @@ def create_nested_structure(json_data, path_parts, value):
             current[part] = {}
         current = current[part]
     current[path_parts[-1]] = value
+    
     return json_data
 
 

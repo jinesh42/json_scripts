@@ -11,11 +11,14 @@
     },
     "location": {
       "position": {
-        "x": "1",
-        "y": "13",
+        "x": "10",
+        "y": "11",
         "z": "12"
       },
-      "site": "IN-BLR-ANANTA"
+      "site": "IN-BLR-ANANTA",
+      "floor": "1",
+      "section": "1C128-W-S",
+      "panel": ""
     }
   },
   "pointset": {

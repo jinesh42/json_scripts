@@ -1,6 +1,7 @@
 {
     "energy_accumulator": "kilowatt_hours",
     "power_sensor": "kilowatts",
+    "power_sensor_98":"kilowatts",
     "phase1_power_sensor": "kilowatts",
     "phase2_power_sensor": "kilowatts",
     "phase3_power_sensor": "kilowatts",
