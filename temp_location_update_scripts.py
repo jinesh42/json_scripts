@@ -73,7 +73,7 @@ def process_file(file_path, row, columns, folder_pattern="*"):
                 excel_value = excel_value.strip(' ').replace(' ','-')
 
             keyword_segments = keyword.split('.')
-
+            print(excel_value)
             try:
                 # Try exact path match first
                 exact_matches = [p for p in paths if p.lower().endswith("." + keyword.lower())]
